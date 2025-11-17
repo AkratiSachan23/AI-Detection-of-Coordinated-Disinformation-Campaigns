@@ -1,6 +1,7 @@
 # AI Detection of Coordinated Disinformation Campaigns
 
 This project builds an AI-based system to detect coordinated disinformation campaigns using graph neural networks and social network analysis. It identifies patterns of coordinated user behavior across social media platforms to flag disinformation networks.
+This project is an end-to-end pipeline for detecting coordinated influence operations (bots, propaganda clusters, manipulated networks) on social media platforms like Twitter/X.
 
 ## Features
 - Graph-based modeling of user interactions
