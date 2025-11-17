@@ -17,6 +17,26 @@ This project is an end-to-end pipeline for detecting coordinated influence opera
 - Scikit-Learn
 - Jupyter Notebook
 
+##📊 Architecture Pipeline
+ Tweets Dataset  
+     ↓  
+Extract Mentions (@user)  
+     ↓  
+Build Social Graph (Nodes = Users, Edges = Mentions)  
+     ↓  
+Node2Vec Embeddings (12447 × 128)  
+     ↓  
+GraphSAGE (Unsupervised Embedding Refinement)  
+     ↓  
+KMeans Clustering → Discover Latent Communities  
+     ↓  
+Manual Labeling of Suspicious Clusters  
+     ↓  
+Supervised GNN Classifier  
+     ↓  
+Evaluation + Explainability  
+
+
 ## Installation
 ```bash
 pip uninstall torch -y
