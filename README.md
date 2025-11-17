@@ -17,7 +17,7 @@ This project is an end-to-end pipeline for detecting coordinated influence opera
 - Scikit-Learn
 - Jupyter Notebook
 
-##📊 Architecture Pipeline
+##  📊 Architecture Pipeline
 
 
  Tweets Dataset  
